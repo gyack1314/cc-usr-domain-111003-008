@@ -1,0 +1,11 @@
+合成业务文书
+S1交接二
+资料编号：C2
+
+sample："S1"
+sender："钱乙"
+receiver："实验室"
+signed：true
+order：2
+
+本文件为本地业务资料副本，效力依业务规程认定。

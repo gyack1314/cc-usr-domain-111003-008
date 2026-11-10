@@ -1,0 +1,39 @@
+[
+  [
+    "dry",
+    {
+      "value": 40,
+      "moisture": "0.2"
+    },
+    "5E+1"
+  ],
+  [
+    "censored",
+    {
+      "value": "ND",
+      "lod": 8
+    },
+    {
+      "low": 0,
+      "high": 8.0,
+      "high_inclusive": false
+    }
+  ],
+  [
+    "custody",
+    {
+      "events": [
+        {
+          "sender": "a",
+          "receiver": "b",
+          "signed": false,
+          "order": 1
+        }
+      ],
+      "initial": "a"
+    },
+    [
+      1
+    ]
+  ]
+]

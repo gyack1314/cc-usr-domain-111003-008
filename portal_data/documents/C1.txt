@@ -1,0 +1,11 @@
+合成业务文书
+S1交接一
+资料编号：C1
+
+sample："S1"
+sender："赵甲"
+receiver："钱乙"
+signed：true
+order：1
+
+本文件为本地业务资料副本，效力依业务规程认定。

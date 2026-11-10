@@ -1,0 +1,171 @@
+[
+  {
+    "id": "C1",
+    "category": "交接",
+    "title": "S1交接一",
+    "revision": 1,
+    "fields": {
+      "sample": "S1",
+      "sender": "赵甲",
+      "receiver": "钱乙",
+      "signed": true,
+      "order": 1
+    }
+  },
+  {
+    "id": "C2",
+    "category": "交接",
+    "title": "S1交接二",
+    "revision": 1,
+    "fields": {
+      "sample": "S1",
+      "sender": "钱乙",
+      "receiver": "实验室",
+      "signed": true,
+      "order": 2
+    }
+  },
+  {
+    "id": "C3",
+    "category": "交接",
+    "title": "S2交接",
+    "revision": 1,
+    "fields": {
+      "sample": "S2",
+      "sender": "赵甲",
+      "receiver": "实验室",
+      "signed": true,
+      "order": 1
+    }
+  },
+  {
+    "id": "C4",
+    "category": "交接",
+    "title": "S3交接",
+    "revision": 1,
+    "fields": {
+      "sample": "S3",
+      "sender": "陌生承运",
+      "receiver": "实验室",
+      "signed": false,
+      "order": 1
+    }
+  },
+  {
+    "id": "C5",
+    "category": "交接",
+    "title": "S4交接",
+    "revision": 1,
+    "fields": {
+      "sample": "S4",
+      "sender": "赵甲",
+      "receiver": "实验室",
+      "signed": true,
+      "order": 1
+    }
+  },
+  {
+    "id": "A1",
+    "category": "分样",
+    "title": "S2初测分样",
+    "revision": 1,
+    "fields": {
+      "parent": "S2",
+      "child": "S2-A",
+      "method": "消解ICP"
+    }
+  },
+  {
+    "id": "A2",
+    "category": "分样",
+    "title": "S2复测分样",
+    "revision": 1,
+    "fields": {
+      "parent": "S2",
+      "child": "S2-B",
+      "method": "消解ICP"
+    }
+  },
+  {
+    "id": "R1",
+    "category": "报告",
+    "title": "北点铅",
+    "revision": 1,
+    "fields": {
+      "sample": "S1",
+      "analyte": "Pb",
+      "value": 42,
+      "basis": "湿基",
+      "unit": "mg/kg",
+      "dilution_applied": true
+    }
+  },
+  {
+    "id": "R2",
+    "category": "报告",
+    "title": "南点初测",
+    "revision": 1,
+    "fields": {
+      "sample": "S2-A",
+      "analyte": "Pb",
+      "value": "ND",
+      "lod": 60,
+      "basis": "干基",
+      "unit": "mg/kg"
+    }
+  },
+  {
+    "id": "R3",
+    "category": "报告",
+    "title": "南点复测",
+    "revision": 1,
+    "fields": {
+      "sample": "S2-B",
+      "analyte": "Pb",
+      "value": 54,
+      "basis": "干基",
+      "unit": "mg/kg"
+    }
+  },
+  {
+    "id": "R3C",
+    "category": "补正",
+    "title": "南点复测补正",
+    "revision": 1,
+    "fields": {
+      "sample": "S2-B",
+      "replaces": "R3",
+      "analyte": "Pb",
+      "value": 49,
+      "basis": "干基",
+      "unit": "mg/kg",
+      "reason": "录入更正"
+    }
+  },
+  {
+    "id": "R4",
+    "category": "报告",
+    "title": "西点铅",
+    "revision": 1,
+    "fields": {
+      "sample": "S3",
+      "analyte": "Pb",
+      "value": 40,
+      "basis": "湿基",
+      "unit": "mg/kg"
+    }
+  },
+  {
+    "id": "R5",
+    "category": "报告",
+    "title": "东点铅",
+    "revision": 1,
+    "fields": {
+      "sample": "S4",
+      "analyte": "Pb",
+      "value": 0.04,
+      "basis": "干基",
+      "unit": "g/kg"
+    }
+  }
+]
