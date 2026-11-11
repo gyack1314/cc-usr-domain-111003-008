@@ -1,0 +1,14 @@
+{
+  "category": "报告",
+  "fields": {
+    "analyte": "Pb",
+    "basis": "干基",
+    "lod": 60,
+    "sample": "S2-A",
+    "unit": "mg/kg",
+    "value": "ND"
+  },
+  "id": "R2",
+  "revision": 1,
+  "title": "南点初测"
+}

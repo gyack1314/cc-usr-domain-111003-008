@@ -1,0 +1,32 @@
+{
+  "attachment_json": {
+    "path": "attachments/R1.json",
+    "sha256": "fac307a8e5644913cfa22506b13917683a867899f3b64b80bc3921e987a66c4a",
+    "sha_matches_page": true,
+    "url": "http://127.0.0.1:8765/attachment/R1"
+  },
+  "category": "报告",
+  "digest_shown": "fac307a8e5644913cfa22506b13917683a867899f3b64b80bc3921e987a66c4a",
+  "document": {
+    "path": "documents/R1.txt",
+    "sha256": "4f4c505d9d6e800f4abf2443160fa74c10c5d1202a94edc2c20090216949359b",
+    "size": 215,
+    "suggested_name": "R1.txt",
+    "url": "http://127.0.0.1:8765/document/R1"
+  },
+  "fields": {
+    "analyte": "Pb",
+    "basis": "湿基",
+    "dilution_applied": true,
+    "sample": "S1",
+    "unit": "mg/kg",
+    "value": 42
+  },
+  "fields_text": "{\n  \"sample\": \"S1\",\n  \"analyte\": \"Pb\",\n  \"value\": 42,\n  \"basis\": \"湿基\",\n  \"unit\": \"mg/kg\",\n  \"dilution_applied\": true\n}",
+  "id": "R1",
+  "main_text": "北点铅\n资料编号\nR1\n修订\n1\n内容摘要\nfac307a8e5644913cfa22506b13917683a867899f3b64b80bc3921e987a66c4a\n草稿引用\nR1@fac307a8e5644913cfa22506b13917683a867899f3b64b80bc3921e987a66c4a\n{\n  \"sample\": \"S1\",\n  \"analyte\": \"Pb\",\n  \"value\": 42,\n  \"basis\": \"湿基\",\n  \"unit\": \"mg/kg\",\n  \"dilution_applied\": true\n}\n下载原始材料\n\n下载文书或扫描副本",
+  "reference": "R1@fac307a8e5644913cfa22506b13917683a867899f3b64b80bc3921e987a66c4a",
+  "revision": 1,
+  "title": "北点铅",
+  "url": "http://127.0.0.1:8765/record/R1"
+}

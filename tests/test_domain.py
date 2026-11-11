@@ -8,3 +8,8 @@ class DomainBoundaryTests(unittest.TestCase):
         self.assertEqual(censored(4),{'low':4.0,'high':4.0,'high_inclusive':True})
         events=[{'order':2,'sender':'x','receiver':'c','signed':True},{'order':1,'sender':'a','receiver':'b','signed':True}]
         self.assertEqual(custody(events,'a'),[2])
+    def test_unit_conversion(self):
+        self.assertEqual(convert_unit('0.04','g/kg','mg/kg'),'40')
+        self.assertEqual(convert_unit(40,'mg/kg','g/kg'),'0.04')
+        self.assertEqual(convert_unit(5,'mg/kg','mg/kg'),'5')
+        with self.assertRaises(ValueError):convert_unit(1,'mg/L','mg/kg')

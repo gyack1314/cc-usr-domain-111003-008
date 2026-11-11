@@ -1,0 +1,31 @@
+{
+  "attachment_json": {
+    "path": "attachments/C5.json",
+    "sha256": "c7bf10a5d1fcc58e4c6ee6feef0642a5867a329311c10e09bbda698ccbfd3007",
+    "sha_matches_page": true,
+    "url": "http://127.0.0.1:8765/attachment/C5"
+  },
+  "category": "交接",
+  "digest_shown": "c7bf10a5d1fcc58e4c6ee6feef0642a5867a329311c10e09bbda698ccbfd3007",
+  "document": {
+    "path": "documents/C5.txt",
+    "sha256": "477a4eb2bc86f931ebe851a86537cb219fc592adabea850e8737bc1520486a55",
+    "size": 197,
+    "suggested_name": "C5.txt",
+    "url": "http://127.0.0.1:8765/document/C5"
+  },
+  "fields": {
+    "order": 1,
+    "receiver": "实验室",
+    "sample": "S4",
+    "sender": "赵甲",
+    "signed": true
+  },
+  "fields_text": "{\n  \"sample\": \"S4\",\n  \"sender\": \"赵甲\",\n  \"receiver\": \"实验室\",\n  \"signed\": true,\n  \"order\": 1\n}",
+  "id": "C5",
+  "main_text": "S4交接\n资料编号\nC5\n修订\n1\n内容摘要\nc7bf10a5d1fcc58e4c6ee6feef0642a5867a329311c10e09bbda698ccbfd3007\n草稿引用\nC5@c7bf10a5d1fcc58e4c6ee6feef0642a5867a329311c10e09bbda698ccbfd3007\n{\n  \"sample\": \"S4\",\n  \"sender\": \"赵甲\",\n  \"receiver\": \"实验室\",\n  \"signed\": true,\n  \"order\": 1\n}\n下载原始材料\n\n下载文书或扫描副本",
+  "reference": "C5@c7bf10a5d1fcc58e4c6ee6feef0642a5867a329311c10e09bbda698ccbfd3007",
+  "revision": 1,
+  "title": "S4交接",
+  "url": "http://127.0.0.1:8765/record/C5"
+}

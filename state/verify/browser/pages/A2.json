@@ -1,0 +1,29 @@
+{
+  "attachment_json": {
+    "path": "attachments/A2.json",
+    "sha256": "2898bb7253986855d36b83ebc44659a9dd1b84235f710dfbff62bf7c7046d541",
+    "sha_matches_page": true,
+    "url": "http://127.0.0.1:8765/attachment/A2"
+  },
+  "category": "分样",
+  "digest_shown": "2898bb7253986855d36b83ebc44659a9dd1b84235f710dfbff62bf7c7046d541",
+  "document": {
+    "path": "documents/A2.txt",
+    "sha256": "bec3bab3d17bfc26bff654a10a80a6599f03649cc415c788112227aad4b694b5",
+    "size": 174,
+    "suggested_name": "A2.txt",
+    "url": "http://127.0.0.1:8765/document/A2"
+  },
+  "fields": {
+    "child": "S2-B",
+    "method": "消解ICP",
+    "parent": "S2"
+  },
+  "fields_text": "{\n  \"parent\": \"S2\",\n  \"child\": \"S2-B\",\n  \"method\": \"消解ICP\"\n}",
+  "id": "A2",
+  "main_text": "S2复测分样\n资料编号\nA2\n修订\n1\n内容摘要\n2898bb7253986855d36b83ebc44659a9dd1b84235f710dfbff62bf7c7046d541\n草稿引用\nA2@2898bb7253986855d36b83ebc44659a9dd1b84235f710dfbff62bf7c7046d541\n{\n  \"parent\": \"S2\",\n  \"child\": \"S2-B\",\n  \"method\": \"消解ICP\"\n}\n下载原始材料\n\n下载文书或扫描副本",
+  "reference": "A2@2898bb7253986855d36b83ebc44659a9dd1b84235f710dfbff62bf7c7046d541",
+  "revision": 1,
+  "title": "S2复测分样",
+  "url": "http://127.0.0.1:8765/record/A2"
+}

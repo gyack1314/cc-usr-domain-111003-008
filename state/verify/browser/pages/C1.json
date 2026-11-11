@@ -1,0 +1,31 @@
+{
+  "attachment_json": {
+    "path": "attachments/C1.json",
+    "sha256": "a6ee564709b438225dc1bce49001f6aa1e03a38938fccd811af30907c0aaf77c",
+    "sha_matches_page": true,
+    "url": "http://127.0.0.1:8765/attachment/C1"
+  },
+  "category": "交接",
+  "digest_shown": "a6ee564709b438225dc1bce49001f6aa1e03a38938fccd811af30907c0aaf77c",
+  "document": {
+    "path": "documents/C1.txt",
+    "sha256": "68ce5786f8a17df3f8d8f1fcaa9d2d5d21adcbb63828cc0df6cbec8ee360249c",
+    "size": 197,
+    "suggested_name": "C1.txt",
+    "url": "http://127.0.0.1:8765/document/C1"
+  },
+  "fields": {
+    "order": 1,
+    "receiver": "钱乙",
+    "sample": "S1",
+    "sender": "赵甲",
+    "signed": true
+  },
+  "fields_text": "{\n  \"sample\": \"S1\",\n  \"sender\": \"赵甲\",\n  \"receiver\": \"钱乙\",\n  \"signed\": true,\n  \"order\": 1\n}",
+  "id": "C1",
+  "main_text": "S1交接一\n资料编号\nC1\n修订\n1\n内容摘要\na6ee564709b438225dc1bce49001f6aa1e03a38938fccd811af30907c0aaf77c\n草稿引用\nC1@a6ee564709b438225dc1bce49001f6aa1e03a38938fccd811af30907c0aaf77c\n{\n  \"sample\": \"S1\",\n  \"sender\": \"赵甲\",\n  \"receiver\": \"钱乙\",\n  \"signed\": true,\n  \"order\": 1\n}\n下载原始材料\n\n下载文书或扫描副本",
+  "reference": "C1@a6ee564709b438225dc1bce49001f6aa1e03a38938fccd811af30907c0aaf77c",
+  "revision": 1,
+  "title": "S1交接一",
+  "url": "http://127.0.0.1:8765/record/C1"
+}

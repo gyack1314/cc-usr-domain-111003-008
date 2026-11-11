@@ -1,0 +1,31 @@
+{
+  "attachment_json": {
+    "path": "attachments/R3.json",
+    "sha256": "1e0d2285a27cae8c5d2ee5688b68918f8d2356ff16c3e61a7912c34fcc787313",
+    "sha_matches_page": true,
+    "url": "http://127.0.0.1:8765/attachment/R3"
+  },
+  "category": "报告",
+  "digest_shown": "1e0d2285a27cae8c5d2ee5688b68918f8d2356ff16c3e61a7912c34fcc787313",
+  "document": {
+    "path": "documents/R3.txt",
+    "sha256": "b601f11579f439006412794c3a9c5ebe60cfa2a0cb19b7c243e1bee82e403696",
+    "size": 196,
+    "suggested_name": "R3.txt",
+    "url": "http://127.0.0.1:8765/document/R3"
+  },
+  "fields": {
+    "analyte": "Pb",
+    "basis": "干基",
+    "sample": "S2-B",
+    "unit": "mg/kg",
+    "value": 54
+  },
+  "fields_text": "{\n  \"sample\": \"S2-B\",\n  \"analyte\": \"Pb\",\n  \"value\": 54,\n  \"basis\": \"干基\",\n  \"unit\": \"mg/kg\"\n}",
+  "id": "R3",
+  "main_text": "南点复测\n资料编号\nR3\n修订\n1\n内容摘要\n1e0d2285a27cae8c5d2ee5688b68918f8d2356ff16c3e61a7912c34fcc787313\n草稿引用\nR3@1e0d2285a27cae8c5d2ee5688b68918f8d2356ff16c3e61a7912c34fcc787313\n{\n  \"sample\": \"S2-B\",\n  \"analyte\": \"Pb\",\n  \"value\": 54,\n  \"basis\": \"干基\",\n  \"unit\": \"mg/kg\"\n}\n下载原始材料\n\n下载文书或扫描副本",
+  "reference": "R3@1e0d2285a27cae8c5d2ee5688b68918f8d2356ff16c3e61a7912c34fcc787313",
+  "revision": 1,
+  "title": "南点复测",
+  "url": "http://127.0.0.1:8765/record/R3"
+}

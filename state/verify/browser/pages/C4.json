@@ -1,0 +1,31 @@
+{
+  "attachment_json": {
+    "path": "attachments/C4.json",
+    "sha256": "5a5cb174ffb32ccfead84ab200881e36fb9a0eea541d8d0530da2d7bd469f2b8",
+    "sha_matches_page": true,
+    "url": "http://127.0.0.1:8765/attachment/C4"
+  },
+  "category": "交接",
+  "digest_shown": "5a5cb174ffb32ccfead84ab200881e36fb9a0eea541d8d0530da2d7bd469f2b8",
+  "document": {
+    "path": "documents/C4.txt",
+    "sha256": "fbfb6c5e7661a3aa3e03b0de42e524cd79b1f951e507ac7e8b9063e21997a715",
+    "size": 204,
+    "suggested_name": "C4.txt",
+    "url": "http://127.0.0.1:8765/document/C4"
+  },
+  "fields": {
+    "order": 1,
+    "receiver": "实验室",
+    "sample": "S3",
+    "sender": "陌生承运",
+    "signed": false
+  },
+  "fields_text": "{\n  \"sample\": \"S3\",\n  \"sender\": \"陌生承运\",\n  \"receiver\": \"实验室\",\n  \"signed\": false,\n  \"order\": 1\n}",
+  "id": "C4",
+  "main_text": "S3交接\n资料编号\nC4\n修订\n1\n内容摘要\n5a5cb174ffb32ccfead84ab200881e36fb9a0eea541d8d0530da2d7bd469f2b8\n草稿引用\nC4@5a5cb174ffb32ccfead84ab200881e36fb9a0eea541d8d0530da2d7bd469f2b8\n{\n  \"sample\": \"S3\",\n  \"sender\": \"陌生承运\",\n  \"receiver\": \"实验室\",\n  \"signed\": false,\n  \"order\": 1\n}\n下载原始材料\n\n下载文书或扫描副本",
+  "reference": "C4@5a5cb174ffb32ccfead84ab200881e36fb9a0eea541d8d0530da2d7bd469f2b8",
+  "revision": 1,
+  "title": "S3交接",
+  "url": "http://127.0.0.1:8765/record/C4"
+}

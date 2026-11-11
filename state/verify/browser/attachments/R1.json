@@ -1,0 +1,14 @@
+{
+  "category": "报告",
+  "fields": {
+    "analyte": "Pb",
+    "basis": "湿基",
+    "dilution_applied": true,
+    "sample": "S1",
+    "unit": "mg/kg",
+    "value": 42
+  },
+  "id": "R1",
+  "revision": 1,
+  "title": "北点铅"
+}

@@ -1,0 +1,31 @@
+{
+  "attachment_json": {
+    "path": "attachments/R4.json",
+    "sha256": "31b62d2cfa39d07087e11924f4a3c570f1c62b1434c9f335681359d30c355182",
+    "sha_matches_page": true,
+    "url": "http://127.0.0.1:8765/attachment/R4"
+  },
+  "category": "报告",
+  "digest_shown": "31b62d2cfa39d07087e11924f4a3c570f1c62b1434c9f335681359d30c355182",
+  "document": {
+    "path": "documents/R4.txt",
+    "sha256": "0635cbe105f10245da9cccaf86f1500bc9d33b2237794eb38256df8a1c5edd79",
+    "size": 191,
+    "suggested_name": "R4.txt",
+    "url": "http://127.0.0.1:8765/document/R4"
+  },
+  "fields": {
+    "analyte": "Pb",
+    "basis": "湿基",
+    "sample": "S3",
+    "unit": "mg/kg",
+    "value": 40
+  },
+  "fields_text": "{\n  \"sample\": \"S3\",\n  \"analyte\": \"Pb\",\n  \"value\": 40,\n  \"basis\": \"湿基\",\n  \"unit\": \"mg/kg\"\n}",
+  "id": "R4",
+  "main_text": "西点铅\n资料编号\nR4\n修订\n1\n内容摘要\n31b62d2cfa39d07087e11924f4a3c570f1c62b1434c9f335681359d30c355182\n草稿引用\nR4@31b62d2cfa39d07087e11924f4a3c570f1c62b1434c9f335681359d30c355182\n{\n  \"sample\": \"S3\",\n  \"analyte\": \"Pb\",\n  \"value\": 40,\n  \"basis\": \"湿基\",\n  \"unit\": \"mg/kg\"\n}\n下载原始材料\n\n下载文书或扫描副本",
+  "reference": "R4@31b62d2cfa39d07087e11924f4a3c570f1c62b1434c9f335681359d30c355182",
+  "revision": 1,
+  "title": "西点铅",
+  "url": "http://127.0.0.1:8765/record/R4"
+}

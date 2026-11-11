@@ -1,0 +1,578 @@
+{
+  "classification_legend": {
+    "可比较": "交接链连续、分析方法可溯、单位/干湿基换算必要条件齐备，可与干基控制值 50 mg/kg 直接比较",
+    "有限使用": "材料本身可溯但用途受限：或为不能支撑判定的检出区间、或为已被补正替代的历史结果、或采信有待补正确认",
+    "留置待核": "存在交接断链或缺少换算必要条件，停止比较，补齐前不得用于现场处置的达标讨论"
+  },
+  "comparability_note_s2": "R2（S2-A 初测）与 R3/R3C（S2-B 复测）是同一原样 S2 的两个独立分样，身份不互相替代；同点位、同名称、同报告日期均不构成合并理由，不得平均或择一。ND 的 [0,60) 区间与 49~54 的复测值在数学上可同时成立，因此南点不能给出单一达标/超标结论。",
+  "control_limit": {
+    "analyte": "Pb",
+    "basis": "干基",
+    "matrix": "土壤",
+    "value_mgkg": "50"
+  },
+  "conversion_gaps": [
+    {
+      "reason": "含水率缺失（S3 现场标签脱落，采样计划亦无值），湿基无法换算干基，停止与干基控制值比较",
+      "ref": "R4"
+    }
+  ],
+  "custody_gaps": [
+    {
+      "gap": "发送方‘陌生承运’≠上一持有人赵甲，且 signed=false；交接断链，样品归属不能回到原样",
+      "record_ref": "C4@5a5cb174ffb32ccfead84ab200881e36fb9a0eea541d8d0530da2d7bd469f2b8",
+      "ref": "C4",
+      "remediation": "补签或出具情况说明，确认承运身份与取样人衔接",
+      "sample": "S3"
+    }
+  ],
+  "evidence_inputs": {
+    "browser_summary": "state/verify/browser/collection_summary.json",
+    "calc_bundle": "state/verify/calc/calc_bundle.json",
+    "materials_manifest": "state/verify/evidence/materials-manifest.json"
+  },
+  "exceedance_bounds": {
+    "S1_北点": {
+      "caveat": "稀释倍数记录待 Q1 核验，数值已含稀释不重复计算",
+      "determined": "干基 52.5 mg/kg，确定高于 50（裕量 +2.5）"
+    },
+    "S2-A_南点初测": {
+      "caveat": "不能判定；需更低 LOD 复测（Q2）",
+      "determined": "真值 ∈ [0,60) mg/kg 干基，区间跨越 50"
+    },
+    "S2-B_南点复测": {
+      "caveat": "补正依据待 Q3 确认，确认前不得判未超限",
+      "determined": "被替代值 54（超）与现行补正值 49（低 1）分居控制值两侧"
+    },
+    "S3_西点": {
+      "caveat": "含水率缺失且交接断链，不能判定，禁止写成未超限（Q5）",
+      "determined": "湿基 40；dry=40/(1-m)，m∈[0,1) 时干基 ∈ [40,+∞)",
+      "threshold": "m=0.2 时干基恰为 50；m>0.2 即超限，m<0.2 不超限"
+    },
+    "S4_东点": {
+      "caveat": "分析方法待 Q7 补录",
+      "determined": "0.04 g/kg=40 mg/kg 干基，确定低于 50（裕量 -10）"
+    }
+  },
+  "lineage_edges": [
+    {
+      "custody_refs": [
+        "C1",
+        "C2"
+      ],
+      "custody_verdict": "连续完整（赵甲→…→实验室，均签署）",
+      "edge_id": "E1",
+      "from": "S1",
+      "to": "R1",
+      "type": "原样→报告"
+    },
+    {
+      "edge_id": "E2",
+      "from": "S2",
+      "method": "消解ICP",
+      "note": "分样不替代原样身份",
+      "record_ref": "A1@0c48f948d341fe376678e01a59a0cf64afe8fef563c950c2ed586407a5d9fc1c",
+      "ref": "A1",
+      "to": "S2-A",
+      "type": "分样"
+    },
+    {
+      "edge_id": "E3",
+      "from": "S2",
+      "method": "消解ICP",
+      "note": "分样不替代原样身份",
+      "record_ref": "A2@2898bb7253986855d36b83ebc44659a9dd1b84235f710dfbff62bf7c7046d541",
+      "ref": "A2",
+      "to": "S2-B",
+      "type": "分样"
+    },
+    {
+      "custody_refs": [
+        "C3"
+      ],
+      "custody_verdict": "连续完整（赵甲→…→实验室，均签署）",
+      "edge_id": "E4",
+      "from": "S2-A",
+      "to": "R2",
+      "type": "分样→报告"
+    },
+    {
+      "custody_refs": [
+        "C3"
+      ],
+      "custody_verdict": "连续完整（赵甲→…→实验室，均签署）",
+      "edge_id": "E5",
+      "from": "S2-B",
+      "to": "R3",
+      "type": "分样→报告"
+    },
+    {
+      "edge_id": "E6",
+      "from": "R3",
+      "record_ref": "R3C@4c8d5875033b26a11b3be55fdb6a6d81eb1ffbb4f39c350f3e5c0ba7eb36ba30",
+      "ref": "R3C",
+      "scope": "R3C 仅替代其 replaces 指向的 R3 结果；R3 原始来历保留，不被抹掉",
+      "to": "R3C",
+      "type": "补正替代"
+    },
+    {
+      "custody_refs": [
+        "C3"
+      ],
+      "edge_id": "E7",
+      "from": "S2-B",
+      "to": "R3C",
+      "type": "分样→现行补正结果"
+    },
+    {
+      "custody_refs": [
+        "C4"
+      ],
+      "custody_verdict": "断链：事件 1（发送人与上一持有人不匹配或缺签）",
+      "edge_id": "E8",
+      "from": "S3",
+      "to": "R4",
+      "type": "原样→报告（断链）"
+    },
+    {
+      "custody_refs": [
+        "C5"
+      ],
+      "custody_verdict": "连续完整（赵甲→…→实验室，均签署）",
+      "edge_id": "E9",
+      "from": "S4",
+      "to": "R5",
+      "type": "原样→报告"
+    }
+  ],
+  "method_traceability_gap": [
+    {
+      "gap": "门户未记录分析方法",
+      "records": [
+        "R1"
+      ],
+      "sample": "S1"
+    },
+    {
+      "gap": "门户未记录分析方法",
+      "records": [
+        "R4"
+      ],
+      "sample": "S3"
+    },
+    {
+      "gap": "门户未记录分析方法",
+      "records": [
+        "R5"
+      ],
+      "sample": "S4"
+    },
+    {
+      "gap": null,
+      "method": "消解ICP",
+      "records": [
+        "A1",
+        "A2"
+      ],
+      "sample": "S2"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "question": "提供 R1 稀释倍数与稀释操作记录，确认 42 mg/kg 湿基已计入倍数、无需再除倍数，并提供原始读数与计算链。",
+      "records": [
+        "R1"
+      ],
+      "target": "实验室"
+    },
+    {
+      "id": "Q2",
+      "question": "说明 S2-A 初测 LOD=60 mg/kg（高于控制值 50）的方法检出限/定量限评定与仪器条件；能否对 S2-A 或留存样以更低检出限复测。",
+      "records": [
+        "R2"
+      ],
+      "target": "实验室"
+    },
+    {
+      "id": "Q3",
+      "question": "提供 54→49‘录入更正’的原始记录、错误来源与审批，及 R3 的正式撤回/作废声明，确认 R3C 为 S2-B 唯一现行有效结果。",
+      "records": [
+        "R3",
+        "R3C"
+      ],
+      "target": "实验室"
+    },
+    {
+      "id": "Q4",
+      "question": "说明 S2-A 与 S2-B 两份分样结果差异的分样均匀性、取样量与质控情况（平行样、空白、加标回收）。",
+      "records": [
+        "R2",
+        "R3C"
+      ],
+      "target": "实验室"
+    },
+    {
+      "id": "Q5",
+      "question": "补齐 S3 交接：C4 发送方‘陌生承运’与赵甲不衔接且未签，需补签或出具情况说明；含水率标签脱落，确认能否补测含水率或需重新采样。",
+      "records": [
+        "C4",
+        "R4"
+      ],
+      "target": "采样组/实验室"
+    },
+    {
+      "id": "Q6",
+      "question": "确认 R5 以 g/kg 出具的单位依据及 0.04 g/kg=40 mg/kg 换算，并说明与其他报告单位不一致的原因。",
+      "records": [
+        "R5"
+      ],
+      "target": "实验室"
+    },
+    {
+      "id": "Q7",
+      "question": "补录 S1/S3/S4 的分析方法（门户仅 S2 两分样记录为消解ICP），确认方法一致性与适用标准。",
+      "records": [
+        "R1",
+        "R4",
+        "R5"
+      ],
+      "target": "实验室"
+    }
+  ],
+  "plan_coverage_check": [
+    {
+      "gap": null,
+      "has_result_or_alias": true,
+      "planned_sample": "S1",
+      "point": "北点",
+      "reporting_samples": [
+        "S1"
+      ]
+    },
+    {
+      "gap": null,
+      "has_result_or_alias": true,
+      "planned_sample": "S2",
+      "point": "南点",
+      "reporting_samples": [
+        "S2-A",
+        "S2-B"
+      ]
+    },
+    {
+      "gap": null,
+      "has_result_or_alias": true,
+      "planned_sample": "S3",
+      "point": "西点",
+      "reporting_samples": [
+        "S3"
+      ]
+    },
+    {
+      "gap": null,
+      "has_result_or_alias": true,
+      "planned_sample": "S4",
+      "point": "东点",
+      "reporting_samples": [
+        "S4"
+      ]
+    }
+  ],
+  "planned_samples": {
+    "S1": {
+      "coverage_gap": null,
+      "custody": "连续完整（赵甲→…→实验室，均签署）",
+      "custody_refs": [
+        "C1",
+        "C2"
+      ],
+      "point": "北点",
+      "reporting_samples": [
+        "S1"
+      ]
+    },
+    "S2": {
+      "coverage_gap": null,
+      "custody": "连续完整（赵甲→…→实验室，均签署）",
+      "custody_refs": [
+        "C3"
+      ],
+      "point": "南点",
+      "reporting_samples": [
+        "S2-A",
+        "S2-B"
+      ]
+    },
+    "S3": {
+      "coverage_gap": null,
+      "custody": "断链：事件 1（发送人与上一持有人不匹配或缺签）",
+      "custody_refs": [
+        "C4"
+      ],
+      "point": "西点",
+      "reporting_samples": [
+        "S3"
+      ]
+    },
+    "S4": {
+      "coverage_gap": null,
+      "custody": "连续完整（赵甲→…→实验室，均签署）",
+      "custody_refs": [
+        "C5"
+      ],
+      "point": "东点",
+      "reporting_samples": [
+        "S4"
+      ]
+    }
+  },
+  "project": "E-4",
+  "result_nodes": [
+    {
+      "adoption_reason": "交接 C1→C2 连续签署；湿基 42 有含水率 0.2 可换算干基；稀释倍数报告已计入，按规程不重复稀释。可确定干基 52.5 mg/kg，高于控制值。",
+      "analyte": "Pb",
+      "bound_mgkg_dry": {
+        "high": 52.5,
+        "high_inclusive": true,
+        "low": 52.5
+      },
+      "calc_steps": [
+        {
+          "formula": "42/(1-0.2)",
+          "input": {
+            "moisture": "0.2",
+            "value": "42"
+          },
+          "output": "52.5",
+          "tool": "dry"
+        },
+        {
+          "note": "报告已计入稀释倍数，按规程不重复稀释；倍数数值未在门户记录，向实验室索取"
+        }
+      ],
+      "classification": "可比较",
+      "comparable_to_limit": true,
+      "document_copy_sha256": "4f4c505d9d6e800f4abf2443160fa74c10c5d1202a94edc2c20090216949359b",
+      "limit_relation": {
+        "exceeds_limit": true,
+        "limit_mgkg_dry": "50",
+        "margin": "2.5",
+        "value_mgkg_dry": "52.5"
+      },
+      "node_id": "R1",
+      "open_question_ids": [
+        "Q1",
+        "Q7"
+      ],
+      "portal_url": "http://127.0.0.1:8765/record/R1",
+      "record_ref": "R1@fac307a8e5644913cfa22506b13917683a867899f3b64b80bc3921e987a66c4a",
+      "replaced_by": null,
+      "reported": {
+        "basis": "湿基",
+        "dilution_applied": true,
+        "unit": "mg/kg",
+        "value": 42
+      },
+      "sample": "S1",
+      "status": "有效",
+      "stop_reason": null
+    },
+    {
+      "adoption_reason": "S2-A 分样血缘与交接完整，ND 保留为区间 [0,60) mg/kg 干基，不以零填补；但 LOD=60 高于控制值 50，区间跨越控制值，不能判定达标或超标，仅用于界定边界并触发更低检出限复测，不得写成未超限。",
+      "analyte": "Pb",
+      "bound_mgkg_dry": {
+        "high": 60.0,
+        "high_inclusive": false,
+        "low": 0
+      },
+      "calc_steps": [
+        {
+          "input": {
+            "lod": 60,
+            "value": "ND"
+          },
+          "note": "ND=[0,LOD)，上界不含；LOD 以报告基准与单位计",
+          "output": {
+            "high": 60.0,
+            "high_inclusive": false,
+            "low": 0
+          },
+          "tool": "censored"
+        }
+      ],
+      "classification": "有限使用",
+      "comparable_to_limit": true,
+      "document_copy_sha256": "2238ffe3857511fdf8d20f9e6eb1c3c92112aca3b4686dee84307b95ce1b4199",
+      "limit_relation": {
+        "determination": "不能判定未超限（也不能判定超限），禁止写成未超限",
+        "interval_vs_limit": "区间上界 LOD=60 高于控制值 50，区间包含超限区"
+      },
+      "node_id": "R2",
+      "open_question_ids": [
+        "Q2",
+        "Q4"
+      ],
+      "portal_url": "http://127.0.0.1:8765/record/R2",
+      "record_ref": "R2@8d48804a7cc8c34b5c38d32daa310c62065c841b95e852734ecb537a0d380be5",
+      "replaced_by": null,
+      "reported": {
+        "basis": "干基",
+        "lod": 60,
+        "unit": "mg/kg",
+        "value": "ND"
+      },
+      "sample": "S2-A",
+      "status": "有效",
+      "stop_reason": null
+    },
+    {
+      "adoption_reason": "已被 R3C 按 replaces 明确替代，仅保留来历与审计痕迹，不再作为现行依据；与 R2 来自不同分样，不得合并或平均。",
+      "analyte": "Pb",
+      "bound_mgkg_dry": {
+        "high": 54.0,
+        "high_inclusive": true,
+        "low": 54.0
+      },
+      "calc_steps": [],
+      "classification": "有限使用",
+      "comparable_to_limit": true,
+      "document_copy_sha256": "b601f11579f439006412794c3a9c5ebe60cfa2a0cb19b7c243e1bee82e403696",
+      "limit_relation": {
+        "exceeds_limit": true,
+        "limit_mgkg_dry": "50",
+        "margin": "4",
+        "value_mgkg_dry": "54"
+      },
+      "node_id": "R3",
+      "open_question_ids": [
+        "Q3"
+      ],
+      "portal_url": "http://127.0.0.1:8765/record/R3",
+      "record_ref": "R3@1e0d2285a27cae8c5d2ee5688b68918f8d2356ff16c3e61a7912c34fcc787313",
+      "replaced_by": "R3C",
+      "reported": {
+        "basis": "干基",
+        "unit": "mg/kg",
+        "value": 54
+      },
+      "sample": "S2-B",
+      "status": "被替代（仅留存来历）",
+      "stop_reason": null
+    },
+    {
+      "adoption_reason": "为 R3C 指定替代 R3 的现行更正结果，干基 mg/kg、交接完整，数值 49 可与控制值比较；但‘录入更正’的原始依据与R3 正式撤回文件尚待实验室确认，且 49 与被替代值 54 分居控制值两侧、裕量仅 1 mg/kg，采信前须完成确认，确认前不得据此出具达标结论。",
+      "analyte": "Pb",
+      "bound_mgkg_dry": {
+        "high": 49.0,
+        "high_inclusive": true,
+        "low": 49.0
+      },
+      "calc_steps": [],
+      "classification": "有限使用",
+      "comparable_to_limit": true,
+      "document_copy_sha256": "ef5a9c15296a566a0cecfd2f77a5a246780626d3318ee137812a66cce9b1b436",
+      "limit_relation": {
+        "exceeds_limit": false,
+        "limit_mgkg_dry": "50",
+        "margin": "-1",
+        "value_mgkg_dry": "49"
+      },
+      "node_id": "R3C",
+      "open_question_ids": [
+        "Q3",
+        "Q4"
+      ],
+      "portal_url": "http://127.0.0.1:8765/record/R3C",
+      "record_ref": "R3C@4c8d5875033b26a11b3be55fdb6a6d81eb1ffbb4f39c350f3e5c0ba7eb36ba30",
+      "replaced_by": null,
+      "reported": {
+        "basis": "干基",
+        "reason": "录入更正",
+        "replaces": "R3",
+        "unit": "mg/kg",
+        "value": 49
+      },
+      "sample": "S2-B",
+      "status": "补正现行结果（待确认）",
+      "stop_reason": null
+    },
+    {
+      "adoption_reason": "双重阻断：C4 交接发送方为‘陌生承运’且未签署，与采样人赵甲不衔接，样品归属不能回到原样；且 S3 含水率标签脱落、采样计划无值，湿基 40 无法换算干基。补齐前停止比较。",
+      "analyte": "Pb",
+      "bound_mgkg_dry": {
+        "dry_equals_limit_when_moisture": "0.2",
+        "info_only": true,
+        "note": "dry=wet/(1-m)；m∈[0,1) 时 dry∈(wet,+∞)，需补含水率"
+      },
+      "calc_steps": [],
+      "classification": "留置待核",
+      "comparable_to_limit": false,
+      "document_copy_sha256": "0635cbe105f10245da9cccaf86f1500bc9d33b2237794eb38256df8a1c5edd79",
+      "limit_relation": null,
+      "node_id": "R4",
+      "open_question_ids": [
+        "Q5",
+        "Q7"
+      ],
+      "portal_url": "http://127.0.0.1:8765/record/R4",
+      "record_ref": "R4@31b62d2cfa39d07087e11924f4a3c570f1c62b1434c9f335681359d30c355182",
+      "replaced_by": null,
+      "reported": {
+        "basis": "湿基",
+        "unit": "mg/kg",
+        "value": 40
+      },
+      "sample": "S3",
+      "status": "有效",
+      "stop_reason": "含水率缺失（S3 现场标签脱落，采样计划亦无值），湿基无法换算干基，停止与干基控制值比较"
+    },
+    {
+      "adoption_reason": "交接 C5 连续签署；0.04 g/kg 经单位原语换算为 40 mg/kg 干基，必要条件齐备，可确定低于控制值。但分析方法未在门户记录，需实验室补充确认。",
+      "analyte": "Pb",
+      "bound_mgkg_dry": {
+        "high": 40.0,
+        "high_inclusive": true,
+        "low": 40.0
+      },
+      "calc_steps": [
+        {
+          "input": {
+            "target_unit": "mg/kg",
+            "unit": "g/kg",
+            "value": "0.04"
+          },
+          "output": "4E+1",
+          "tool": "convert_unit"
+        }
+      ],
+      "classification": "可比较",
+      "comparable_to_limit": true,
+      "document_copy_sha256": "62b340103cd39fd58f38e4a22dd307a0be0fe18e01baf3452da17ef4bcdf4bcc",
+      "limit_relation": {
+        "exceeds_limit": false,
+        "limit_mgkg_dry": "50",
+        "margin": "-10",
+        "value_mgkg_dry": "4E+1"
+      },
+      "node_id": "R5",
+      "open_question_ids": [
+        "Q6",
+        "Q7"
+      ],
+      "portal_url": "http://127.0.0.1:8765/record/R5",
+      "record_ref": "R5@7e532c037fc7d81825cc961393f3cf25970c0ff13aee36b541ab060e39d0cb6c",
+      "replaced_by": null,
+      "reported": {
+        "basis": "干基",
+        "unit": "g/kg",
+        "value": 0.04
+      },
+      "sample": "S4",
+      "status": "有效",
+      "stop_reason": null
+    }
+  ],
+  "schema_version": "1.0",
+  "statement_policy": "本文件为内部核验血缘，不构成对外环境达标证明；‘不能判定’一律不得表述为‘未超限’；ND 保持检出限区间，不以零填补；草稿始终为待人工审批。"
+}

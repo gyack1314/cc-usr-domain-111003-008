@@ -1,0 +1,22 @@
+[
+  {
+    "path": "field_notes.md",
+    "sha256": "dd63c44020e9f48b804320ce56c1ef3f550d02f28c2a38aa8de202f320bf8f94",
+    "size": 103
+  },
+  {
+    "path": "limits.csv",
+    "sha256": "8aa0b1fd0057792add971bab880000ac084159cd5a31058834b1dcbc42c9eeba",
+    "size": 58
+  },
+  {
+    "path": "policy.md",
+    "sha256": "84290d7f797da429906edd91ad7fb04b5ebad9fec149ae3772d94ec6a1daadff",
+    "size": 420
+  },
+  {
+    "path": "sampling.csv",
+    "sha256": "60f0a722b1555b38e35bad955da6696f42a3cc9750b49182ff42b2a990698a9f",
+    "size": 160
+  }
+]

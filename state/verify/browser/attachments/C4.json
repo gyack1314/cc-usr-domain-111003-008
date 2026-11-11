@@ -1,0 +1,13 @@
+{
+  "category": "交接",
+  "fields": {
+    "order": 1,
+    "receiver": "实验室",
+    "sample": "S3",
+    "sender": "陌生承运",
+    "signed": false
+  },
+  "id": "C4",
+  "revision": 1,
+  "title": "S3交接"
+}

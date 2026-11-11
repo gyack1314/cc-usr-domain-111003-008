@@ -1,0 +1,13 @@
+{
+  "category": "报告",
+  "fields": {
+    "analyte": "Pb",
+    "basis": "干基",
+    "sample": "S2-B",
+    "unit": "mg/kg",
+    "value": 54
+  },
+  "id": "R3",
+  "revision": 1,
+  "title": "南点复测"
+}

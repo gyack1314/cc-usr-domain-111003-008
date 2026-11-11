@@ -1,0 +1,13 @@
+{
+  "category": "报告",
+  "fields": {
+    "analyte": "Pb",
+    "basis": "干基",
+    "sample": "S4",
+    "unit": "g/kg",
+    "value": 0.04
+  },
+  "id": "R5",
+  "revision": 1,
+  "title": "东点铅"
+}

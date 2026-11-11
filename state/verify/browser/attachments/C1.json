@@ -1,0 +1,13 @@
+{
+  "category": "交接",
+  "fields": {
+    "order": 1,
+    "receiver": "钱乙",
+    "sample": "S1",
+    "sender": "赵甲",
+    "signed": true
+  },
+  "id": "C1",
+  "revision": 1,
+  "title": "S1交接一"
+}

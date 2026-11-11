@@ -1,0 +1,342 @@
+{
+  "calculations": [
+    {
+      "analyte": "Pb",
+      "bound_mgkg_dry": {
+        "high": 52.5,
+        "high_inclusive": true,
+        "low": 52.5
+      },
+      "category": "报告",
+      "comparable_to_limit": true,
+      "limit_relation": {
+        "exceeds_limit": true,
+        "limit_mgkg_dry": "50",
+        "margin": "2.5",
+        "value_mgkg_dry": "52.5"
+      },
+      "ref": "R1",
+      "reported": {
+        "basis": "湿基",
+        "dilution_applied": true,
+        "unit": "mg/kg",
+        "value": 42
+      },
+      "sample": "S1",
+      "steps": [
+        {
+          "formula": "42/(1-0.2)",
+          "input": {
+            "moisture": "0.2",
+            "value": "42"
+          },
+          "output": "52.5",
+          "tool": "dry"
+        },
+        {
+          "note": "报告已计入稀释倍数，按规程不重复稀释；倍数数值未在门户记录，向实验室索取"
+        }
+      ],
+      "stop_reason": null
+    },
+    {
+      "analyte": "Pb",
+      "bound_mgkg_dry": {
+        "high": 60.0,
+        "high_inclusive": false,
+        "low": 0
+      },
+      "category": "报告",
+      "comparable_to_limit": true,
+      "limit_relation": {
+        "determination": "不能判定未超限（也不能判定超限），禁止写成未超限",
+        "interval_vs_limit": "区间上界 LOD=60 高于控制值 50，区间包含超限区"
+      },
+      "ref": "R2",
+      "reported": {
+        "basis": "干基",
+        "lod": 60,
+        "unit": "mg/kg",
+        "value": "ND"
+      },
+      "sample": "S2-A",
+      "steps": [
+        {
+          "input": {
+            "lod": 60,
+            "value": "ND"
+          },
+          "note": "ND=[0,LOD)，上界不含；LOD 以报告基准与单位计",
+          "output": {
+            "high": 60.0,
+            "high_inclusive": false,
+            "low": 0
+          },
+          "tool": "censored"
+        }
+      ],
+      "stop_reason": null
+    },
+    {
+      "analyte": "Pb",
+      "bound_mgkg_dry": {
+        "high": 54.0,
+        "high_inclusive": true,
+        "low": 54.0
+      },
+      "category": "报告",
+      "comparable_to_limit": true,
+      "limit_relation": {
+        "exceeds_limit": true,
+        "limit_mgkg_dry": "50",
+        "margin": "4",
+        "value_mgkg_dry": "54"
+      },
+      "ref": "R3",
+      "reported": {
+        "basis": "干基",
+        "unit": "mg/kg",
+        "value": 54
+      },
+      "sample": "S2-B",
+      "steps": [],
+      "stop_reason": null
+    },
+    {
+      "analyte": "Pb",
+      "bound_mgkg_dry": {
+        "high": 49.0,
+        "high_inclusive": true,
+        "low": 49.0
+      },
+      "category": "补正",
+      "comparable_to_limit": true,
+      "limit_relation": {
+        "exceeds_limit": false,
+        "limit_mgkg_dry": "50",
+        "margin": "-1",
+        "value_mgkg_dry": "49"
+      },
+      "ref": "R3C",
+      "reported": {
+        "basis": "干基",
+        "reason": "录入更正",
+        "replaces": "R3",
+        "unit": "mg/kg",
+        "value": 49
+      },
+      "sample": "S2-B",
+      "steps": [],
+      "stop_reason": null
+    },
+    {
+      "analyte": "Pb",
+      "bound_mgkg_dry": {
+        "dry_equals_limit_when_moisture": "0.2",
+        "info_only": true,
+        "note": "dry=wet/(1-m)；m∈[0,1) 时 dry∈(wet,+∞)，需补含水率"
+      },
+      "category": "报告",
+      "comparable_to_limit": false,
+      "ref": "R4",
+      "reported": {
+        "basis": "湿基",
+        "unit": "mg/kg",
+        "value": 40
+      },
+      "sample": "S3",
+      "steps": [],
+      "stop_reason": "含水率缺失（S3 现场标签脱落，采样计划亦无值），湿基无法换算干基，停止与干基控制值比较"
+    },
+    {
+      "analyte": "Pb",
+      "bound_mgkg_dry": {
+        "high": 40.0,
+        "high_inclusive": true,
+        "low": 40.0
+      },
+      "category": "报告",
+      "comparable_to_limit": true,
+      "limit_relation": {
+        "exceeds_limit": false,
+        "limit_mgkg_dry": "50",
+        "margin": "-10",
+        "value_mgkg_dry": "40"
+      },
+      "ref": "R5",
+      "reported": {
+        "basis": "干基",
+        "unit": "g/kg",
+        "value": 0.04
+      },
+      "sample": "S4",
+      "steps": [
+        {
+          "input": {
+            "target_unit": "mg/kg",
+            "unit": "g/kg",
+            "value": "0.04"
+          },
+          "output": "40",
+          "tool": "convert_unit"
+        }
+      ],
+      "stop_reason": null
+    }
+  ],
+  "custody_checks": [
+    {
+      "events": [
+        {
+          "order": 1,
+          "receiver": "钱乙",
+          "ref": "C1",
+          "sender": "赵甲",
+          "signed": true
+        },
+        {
+          "order": 2,
+          "receiver": "实验室",
+          "ref": "C2",
+          "sender": "钱乙",
+          "signed": true
+        }
+      ],
+      "issue_orders": [],
+      "refs": [
+        "C1",
+        "C2"
+      ],
+      "sample": "S1",
+      "verdict": "连续完整（赵甲→…→实验室，均签署）"
+    },
+    {
+      "events": [
+        {
+          "order": 1,
+          "receiver": "实验室",
+          "ref": "C3",
+          "sender": "赵甲",
+          "signed": true
+        }
+      ],
+      "issue_orders": [],
+      "refs": [
+        "C3"
+      ],
+      "sample": "S2",
+      "verdict": "连续完整（赵甲→…→实验室，均签署）"
+    },
+    {
+      "events": [
+        {
+          "order": 1,
+          "receiver": "实验室",
+          "ref": "C4",
+          "sender": "陌生承运",
+          "signed": false
+        }
+      ],
+      "issue_orders": [
+        1
+      ],
+      "refs": [
+        "C4"
+      ],
+      "sample": "S3",
+      "verdict": "断链：事件 1（发送人与上一持有人不匹配或缺签）"
+    },
+    {
+      "events": [
+        {
+          "order": 1,
+          "receiver": "实验室",
+          "ref": "C5",
+          "sender": "赵甲",
+          "signed": true
+        }
+      ],
+      "issue_orders": [],
+      "refs": [
+        "C5"
+      ],
+      "sample": "S4",
+      "verdict": "连续完整（赵甲→…→实验室，均签署）"
+    }
+  ],
+  "limit": {
+    "analyte": "Pb",
+    "basis": "干基",
+    "matrix": "土壤",
+    "value_mgkg": "50"
+  },
+  "plan_coverage": [
+    {
+      "gap": null,
+      "has_result_or_alias": true,
+      "planned_sample": "S1",
+      "point": "北点",
+      "reporting_samples": [
+        "S1"
+      ]
+    },
+    {
+      "gap": null,
+      "has_result_or_alias": true,
+      "planned_sample": "S2",
+      "point": "南点",
+      "reporting_samples": [
+        "S2-A",
+        "S2-B"
+      ]
+    },
+    {
+      "gap": null,
+      "has_result_or_alias": true,
+      "planned_sample": "S3",
+      "point": "西点",
+      "reporting_samples": [
+        "S3"
+      ]
+    },
+    {
+      "gap": null,
+      "has_result_or_alias": true,
+      "planned_sample": "S4",
+      "point": "东点",
+      "reporting_samples": [
+        "S4"
+      ]
+    }
+  ],
+  "project": "E-4",
+  "sources": {
+    "materials": [
+      "sampling.csv",
+      "limits.csv",
+      "field_notes.md",
+      "policy.md"
+    ],
+    "portal_evidence_dir": "state/verify/browser"
+  },
+  "splits": [
+    {
+      "child": "S2-A",
+      "method": "消解ICP",
+      "parent": "S2",
+      "ref": "A1"
+    },
+    {
+      "child": "S2-B",
+      "method": "消解ICP",
+      "parent": "S2",
+      "ref": "A2"
+    }
+  ],
+  "stops": [
+    {
+      "reason": "含水率缺失（S3 现场标签脱落，采样计划亦无值），湿基无法换算干基，停止与干基控制值比较",
+      "ref": "R4"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "category": "分样",
+  "fields": {
+    "child": "S2-B",
+    "method": "消解ICP",
+    "parent": "S2"
+  },
+  "id": "A2",
+  "revision": 1,
+  "title": "S2复测分样"
+}

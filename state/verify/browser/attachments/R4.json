@@ -1,0 +1,13 @@
+{
+  "category": "报告",
+  "fields": {
+    "analyte": "Pb",
+    "basis": "湿基",
+    "sample": "S3",
+    "unit": "mg/kg",
+    "value": 40
+  },
+  "id": "R4",
+  "revision": 1,
+  "title": "西点铅"
+}

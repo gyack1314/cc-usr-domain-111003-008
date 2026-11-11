@@ -1,0 +1,15 @@
+{
+  "category": "补正",
+  "fields": {
+    "analyte": "Pb",
+    "basis": "干基",
+    "reason": "录入更正",
+    "replaces": "R3",
+    "sample": "S2-B",
+    "unit": "mg/kg",
+    "value": 49
+  },
+  "id": "R3C",
+  "revision": 1,
+  "title": "南点复测补正"
+}

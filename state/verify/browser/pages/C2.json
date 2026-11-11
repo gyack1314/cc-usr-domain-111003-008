@@ -1,0 +1,31 @@
+{
+  "attachment_json": {
+    "path": "attachments/C2.json",
+    "sha256": "09eff6e3d950716dc553825e6f5635d0f098261ab289a5e6b96529854236dc42",
+    "sha_matches_page": true,
+    "url": "http://127.0.0.1:8765/attachment/C2"
+  },
+  "category": "交接",
+  "digest_shown": "09eff6e3d950716dc553825e6f5635d0f098261ab289a5e6b96529854236dc42",
+  "document": {
+    "path": "documents/C2.txt",
+    "sha256": "c13de66d3c35121238823d96efba665f0314cf59e188ce758cafa6becef89462",
+    "size": 200,
+    "suggested_name": "C2.txt",
+    "url": "http://127.0.0.1:8765/document/C2"
+  },
+  "fields": {
+    "order": 2,
+    "receiver": "实验室",
+    "sample": "S1",
+    "sender": "钱乙",
+    "signed": true
+  },
+  "fields_text": "{\n  \"sample\": \"S1\",\n  \"sender\": \"钱乙\",\n  \"receiver\": \"实验室\",\n  \"signed\": true,\n  \"order\": 2\n}",
+  "id": "C2",
+  "main_text": "S1交接二\n资料编号\nC2\n修订\n1\n内容摘要\n09eff6e3d950716dc553825e6f5635d0f098261ab289a5e6b96529854236dc42\n草稿引用\nC2@09eff6e3d950716dc553825e6f5635d0f098261ab289a5e6b96529854236dc42\n{\n  \"sample\": \"S1\",\n  \"sender\": \"钱乙\",\n  \"receiver\": \"实验室\",\n  \"signed\": true,\n  \"order\": 2\n}\n下载原始材料\n\n下载文书或扫描副本",
+  "reference": "C2@09eff6e3d950716dc553825e6f5635d0f098261ab289a5e6b96529854236dc42",
+  "revision": 1,
+  "title": "S1交接二",
+  "url": "http://127.0.0.1:8765/record/C2"
+}

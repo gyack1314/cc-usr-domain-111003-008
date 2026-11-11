@@ -1,0 +1,4 @@
+{"events": [
+  {"order": 1, "sender": "赵甲", "receiver": "钱乙", "signed": true},
+  {"order": 2, "sender": "钱乙", "receiver": "实验室", "signed": true}],
+ "initial": "赵甲"}

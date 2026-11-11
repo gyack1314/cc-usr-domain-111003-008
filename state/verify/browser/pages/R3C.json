@@ -1,0 +1,33 @@
+{
+  "attachment_json": {
+    "path": "attachments/R3C.json",
+    "sha256": "4c8d5875033b26a11b3be55fdb6a6d81eb1ffbb4f39c350f3e5c0ba7eb36ba30",
+    "sha_matches_page": true,
+    "url": "http://127.0.0.1:8765/attachment/R3C"
+  },
+  "category": "补正",
+  "digest_shown": "4c8d5875033b26a11b3be55fdb6a6d81eb1ffbb4f39c350f3e5c0ba7eb36ba30",
+  "document": {
+    "path": "documents/R3C.txt",
+    "sha256": "ef5a9c15296a566a0cecfd2f77a5a246780626d3318ee137812a66cce9b1b436",
+    "size": 243,
+    "suggested_name": "R3C.txt",
+    "url": "http://127.0.0.1:8765/document/R3C"
+  },
+  "fields": {
+    "analyte": "Pb",
+    "basis": "干基",
+    "reason": "录入更正",
+    "replaces": "R3",
+    "sample": "S2-B",
+    "unit": "mg/kg",
+    "value": 49
+  },
+  "fields_text": "{\n  \"sample\": \"S2-B\",\n  \"replaces\": \"R3\",\n  \"analyte\": \"Pb\",\n  \"value\": 49,\n  \"basis\": \"干基\",\n  \"unit\": \"mg/kg\",\n  \"reason\": \"录入更正\"\n}",
+  "id": "R3C",
+  "main_text": "南点复测补正\n资料编号\nR3C\n修订\n1\n内容摘要\n4c8d5875033b26a11b3be55fdb6a6d81eb1ffbb4f39c350f3e5c0ba7eb36ba30\n草稿引用\nR3C@4c8d5875033b26a11b3be55fdb6a6d81eb1ffbb4f39c350f3e5c0ba7eb36ba30\n{\n  \"sample\": \"S2-B\",\n  \"replaces\": \"R3\",\n  \"analyte\": \"Pb\",\n  \"value\": 49,\n  \"basis\": \"干基\",\n  \"unit\": \"mg/kg\",\n  \"reason\": \"录入更正\"\n}\n下载原始材料\n\n下载文书或扫描副本",
+  "reference": "R3C@4c8d5875033b26a11b3be55fdb6a6d81eb1ffbb4f39c350f3e5c0ba7eb36ba30",
+  "revision": 1,
+  "title": "南点复测补正",
+  "url": "http://127.0.0.1:8765/record/R3C"
+}

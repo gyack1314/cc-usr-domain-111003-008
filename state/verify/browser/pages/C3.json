@@ -1,0 +1,31 @@
+{
+  "attachment_json": {
+    "path": "attachments/C3.json",
+    "sha256": "3ad7ade6d894b2c88d4c39db16e4f1a92ab7108ebaf86f735800ec8ac14e760d",
+    "sha_matches_page": true,
+    "url": "http://127.0.0.1:8765/attachment/C3"
+  },
+  "category": "交接",
+  "digest_shown": "3ad7ade6d894b2c88d4c39db16e4f1a92ab7108ebaf86f735800ec8ac14e760d",
+  "document": {
+    "path": "documents/C3.txt",
+    "sha256": "918bc0b28276d782075cd33f0d1f463cbe5b6a5146747573f869ad02d57f7b1c",
+    "size": 197,
+    "suggested_name": "C3.txt",
+    "url": "http://127.0.0.1:8765/document/C3"
+  },
+  "fields": {
+    "order": 1,
+    "receiver": "实验室",
+    "sample": "S2",
+    "sender": "赵甲",
+    "signed": true
+  },
+  "fields_text": "{\n  \"sample\": \"S2\",\n  \"sender\": \"赵甲\",\n  \"receiver\": \"实验室\",\n  \"signed\": true,\n  \"order\": 1\n}",
+  "id": "C3",
+  "main_text": "S2交接\n资料编号\nC3\n修订\n1\n内容摘要\n3ad7ade6d894b2c88d4c39db16e4f1a92ab7108ebaf86f735800ec8ac14e760d\n草稿引用\nC3@3ad7ade6d894b2c88d4c39db16e4f1a92ab7108ebaf86f735800ec8ac14e760d\n{\n  \"sample\": \"S2\",\n  \"sender\": \"赵甲\",\n  \"receiver\": \"实验室\",\n  \"signed\": true,\n  \"order\": 1\n}\n下载原始材料\n\n下载文书或扫描副本",
+  "reference": "C3@3ad7ade6d894b2c88d4c39db16e4f1a92ab7108ebaf86f735800ec8ac14e760d",
+  "revision": 1,
+  "title": "S2交接",
+  "url": "http://127.0.0.1:8765/record/C3"
+}

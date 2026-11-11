@@ -1,0 +1,31 @@
+{
+  "attachment_json": {
+    "path": "attachments/R5.json",
+    "sha256": "7e532c037fc7d81825cc961393f3cf25970c0ff13aee36b541ab060e39d0cb6c",
+    "sha_matches_page": true,
+    "url": "http://127.0.0.1:8765/attachment/R5"
+  },
+  "category": "报告",
+  "digest_shown": "7e532c037fc7d81825cc961393f3cf25970c0ff13aee36b541ab060e39d0cb6c",
+  "document": {
+    "path": "documents/R5.txt",
+    "sha256": "62b340103cd39fd58f38e4a22dd307a0be0fe18e01baf3452da17ef4bcdf4bcc",
+    "size": 192,
+    "suggested_name": "R5.txt",
+    "url": "http://127.0.0.1:8765/document/R5"
+  },
+  "fields": {
+    "analyte": "Pb",
+    "basis": "干基",
+    "sample": "S4",
+    "unit": "g/kg",
+    "value": 0.04
+  },
+  "fields_text": "{\n  \"sample\": \"S4\",\n  \"analyte\": \"Pb\",\n  \"value\": 0.04,\n  \"basis\": \"干基\",\n  \"unit\": \"g/kg\"\n}",
+  "id": "R5",
+  "main_text": "东点铅\n资料编号\nR5\n修订\n1\n内容摘要\n7e532c037fc7d81825cc961393f3cf25970c0ff13aee36b541ab060e39d0cb6c\n草稿引用\nR5@7e532c037fc7d81825cc961393f3cf25970c0ff13aee36b541ab060e39d0cb6c\n{\n  \"sample\": \"S4\",\n  \"analyte\": \"Pb\",\n  \"value\": 0.04,\n  \"basis\": \"干基\",\n  \"unit\": \"g/kg\"\n}\n下载原始材料\n\n下载文书或扫描副本",
+  "reference": "R5@7e532c037fc7d81825cc961393f3cf25970c0ff13aee36b541ab060e39d0cb6c",
+  "revision": 1,
+  "title": "东点铅",
+  "url": "http://127.0.0.1:8765/record/R5"
+}

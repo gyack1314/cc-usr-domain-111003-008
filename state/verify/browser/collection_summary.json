@@ -1,0 +1,441 @@
+{
+  "base_url": "http://127.0.0.1:8765",
+  "index_pages": [
+    {
+      "count_text": "共 13 份资料",
+      "url": "http://127.0.0.1:8765/?page=1",
+      "visible_ids": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "count_text": "共 13 份资料",
+      "url": "http://127.0.0.1:8765/?page=2",
+      "visible_ids": [
+        "A1",
+        "A2",
+        "R1",
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "count_text": "共 13 份资料",
+      "url": "http://127.0.0.1:8765/?page=3",
+      "visible_ids": [
+        "R3C",
+        "R4",
+        "R5"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "attachment_json": {
+        "path": "attachments/C1.json",
+        "sha256": "a6ee564709b438225dc1bce49001f6aa1e03a38938fccd811af30907c0aaf77c",
+        "sha_matches_page": true,
+        "url": "http://127.0.0.1:8765/attachment/C1"
+      },
+      "category": "交接",
+      "digest_shown": "a6ee564709b438225dc1bce49001f6aa1e03a38938fccd811af30907c0aaf77c",
+      "document": {
+        "path": "documents/C1.txt",
+        "sha256": "68ce5786f8a17df3f8d8f1fcaa9d2d5d21adcbb63828cc0df6cbec8ee360249c",
+        "size": 197,
+        "suggested_name": "C1.txt",
+        "url": "http://127.0.0.1:8765/document/C1"
+      },
+      "fields": {
+        "order": 1,
+        "receiver": "钱乙",
+        "sample": "S1",
+        "sender": "赵甲",
+        "signed": true
+      },
+      "fields_text": "{\n  \"sample\": \"S1\",\n  \"sender\": \"赵甲\",\n  \"receiver\": \"钱乙\",\n  \"signed\": true,\n  \"order\": 1\n}",
+      "id": "C1",
+      "main_text": "S1交接一\n资料编号\nC1\n修订\n1\n内容摘要\na6ee564709b438225dc1bce49001f6aa1e03a38938fccd811af30907c0aaf77c\n草稿引用\nC1@a6ee564709b438225dc1bce49001f6aa1e03a38938fccd811af30907c0aaf77c\n{\n  \"sample\": \"S1\",\n  \"sender\": \"赵甲\",\n  \"receiver\": \"钱乙\",\n  \"signed\": true,\n  \"order\": 1\n}\n下载原始材料\n\n下载文书或扫描副本",
+      "reference": "C1@a6ee564709b438225dc1bce49001f6aa1e03a38938fccd811af30907c0aaf77c",
+      "revision": 1,
+      "title": "S1交接一",
+      "url": "http://127.0.0.1:8765/record/C1"
+    },
+    {
+      "attachment_json": {
+        "path": "attachments/C2.json",
+        "sha256": "09eff6e3d950716dc553825e6f5635d0f098261ab289a5e6b96529854236dc42",
+        "sha_matches_page": true,
+        "url": "http://127.0.0.1:8765/attachment/C2"
+      },
+      "category": "交接",
+      "digest_shown": "09eff6e3d950716dc553825e6f5635d0f098261ab289a5e6b96529854236dc42",
+      "document": {
+        "path": "documents/C2.txt",
+        "sha256": "c13de66d3c35121238823d96efba665f0314cf59e188ce758cafa6becef89462",
+        "size": 200,
+        "suggested_name": "C2.txt",
+        "url": "http://127.0.0.1:8765/document/C2"
+      },
+      "fields": {
+        "order": 2,
+        "receiver": "实验室",
+        "sample": "S1",
+        "sender": "钱乙",
+        "signed": true
+      },
+      "fields_text": "{\n  \"sample\": \"S1\",\n  \"sender\": \"钱乙\",\n  \"receiver\": \"实验室\",\n  \"signed\": true,\n  \"order\": 2\n}",
+      "id": "C2",
+      "main_text": "S1交接二\n资料编号\nC2\n修订\n1\n内容摘要\n09eff6e3d950716dc553825e6f5635d0f098261ab289a5e6b96529854236dc42\n草稿引用\nC2@09eff6e3d950716dc553825e6f5635d0f098261ab289a5e6b96529854236dc42\n{\n  \"sample\": \"S1\",\n  \"sender\": \"钱乙\",\n  \"receiver\": \"实验室\",\n  \"signed\": true,\n  \"order\": 2\n}\n下载原始材料\n\n下载文书或扫描副本",
+      "reference": "C2@09eff6e3d950716dc553825e6f5635d0f098261ab289a5e6b96529854236dc42",
+      "revision": 1,
+      "title": "S1交接二",
+      "url": "http://127.0.0.1:8765/record/C2"
+    },
+    {
+      "attachment_json": {
+        "path": "attachments/C3.json",
+        "sha256": "3ad7ade6d894b2c88d4c39db16e4f1a92ab7108ebaf86f735800ec8ac14e760d",
+        "sha_matches_page": true,
+        "url": "http://127.0.0.1:8765/attachment/C3"
+      },
+      "category": "交接",
+      "digest_shown": "3ad7ade6d894b2c88d4c39db16e4f1a92ab7108ebaf86f735800ec8ac14e760d",
+      "document": {
+        "path": "documents/C3.txt",
+        "sha256": "918bc0b28276d782075cd33f0d1f463cbe5b6a5146747573f869ad02d57f7b1c",
+        "size": 197,
+        "suggested_name": "C3.txt",
+        "url": "http://127.0.0.1:8765/document/C3"
+      },
+      "fields": {
+        "order": 1,
+        "receiver": "实验室",
+        "sample": "S2",
+        "sender": "赵甲",
+        "signed": true
+      },
+      "fields_text": "{\n  \"sample\": \"S2\",\n  \"sender\": \"赵甲\",\n  \"receiver\": \"实验室\",\n  \"signed\": true,\n  \"order\": 1\n}",
+      "id": "C3",
+      "main_text": "S2交接\n资料编号\nC3\n修订\n1\n内容摘要\n3ad7ade6d894b2c88d4c39db16e4f1a92ab7108ebaf86f735800ec8ac14e760d\n草稿引用\nC3@3ad7ade6d894b2c88d4c39db16e4f1a92ab7108ebaf86f735800ec8ac14e760d\n{\n  \"sample\": \"S2\",\n  \"sender\": \"赵甲\",\n  \"receiver\": \"实验室\",\n  \"signed\": true,\n  \"order\": 1\n}\n下载原始材料\n\n下载文书或扫描副本",
+      "reference": "C3@3ad7ade6d894b2c88d4c39db16e4f1a92ab7108ebaf86f735800ec8ac14e760d",
+      "revision": 1,
+      "title": "S2交接",
+      "url": "http://127.0.0.1:8765/record/C3"
+    },
+    {
+      "attachment_json": {
+        "path": "attachments/C4.json",
+        "sha256": "5a5cb174ffb32ccfead84ab200881e36fb9a0eea541d8d0530da2d7bd469f2b8",
+        "sha_matches_page": true,
+        "url": "http://127.0.0.1:8765/attachment/C4"
+      },
+      "category": "交接",
+      "digest_shown": "5a5cb174ffb32ccfead84ab200881e36fb9a0eea541d8d0530da2d7bd469f2b8",
+      "document": {
+        "path": "documents/C4.txt",
+        "sha256": "fbfb6c5e7661a3aa3e03b0de42e524cd79b1f951e507ac7e8b9063e21997a715",
+        "size": 204,
+        "suggested_name": "C4.txt",
+        "url": "http://127.0.0.1:8765/document/C4"
+      },
+      "fields": {
+        "order": 1,
+        "receiver": "实验室",
+        "sample": "S3",
+        "sender": "陌生承运",
+        "signed": false
+      },
+      "fields_text": "{\n  \"sample\": \"S3\",\n  \"sender\": \"陌生承运\",\n  \"receiver\": \"实验室\",\n  \"signed\": false,\n  \"order\": 1\n}",
+      "id": "C4",
+      "main_text": "S3交接\n资料编号\nC4\n修订\n1\n内容摘要\n5a5cb174ffb32ccfead84ab200881e36fb9a0eea541d8d0530da2d7bd469f2b8\n草稿引用\nC4@5a5cb174ffb32ccfead84ab200881e36fb9a0eea541d8d0530da2d7bd469f2b8\n{\n  \"sample\": \"S3\",\n  \"sender\": \"陌生承运\",\n  \"receiver\": \"实验室\",\n  \"signed\": false,\n  \"order\": 1\n}\n下载原始材料\n\n下载文书或扫描副本",
+      "reference": "C4@5a5cb174ffb32ccfead84ab200881e36fb9a0eea541d8d0530da2d7bd469f2b8",
+      "revision": 1,
+      "title": "S3交接",
+      "url": "http://127.0.0.1:8765/record/C4"
+    },
+    {
+      "attachment_json": {
+        "path": "attachments/C5.json",
+        "sha256": "c7bf10a5d1fcc58e4c6ee6feef0642a5867a329311c10e09bbda698ccbfd3007",
+        "sha_matches_page": true,
+        "url": "http://127.0.0.1:8765/attachment/C5"
+      },
+      "category": "交接",
+      "digest_shown": "c7bf10a5d1fcc58e4c6ee6feef0642a5867a329311c10e09bbda698ccbfd3007",
+      "document": {
+        "path": "documents/C5.txt",
+        "sha256": "477a4eb2bc86f931ebe851a86537cb219fc592adabea850e8737bc1520486a55",
+        "size": 197,
+        "suggested_name": "C5.txt",
+        "url": "http://127.0.0.1:8765/document/C5"
+      },
+      "fields": {
+        "order": 1,
+        "receiver": "实验室",
+        "sample": "S4",
+        "sender": "赵甲",
+        "signed": true
+      },
+      "fields_text": "{\n  \"sample\": \"S4\",\n  \"sender\": \"赵甲\",\n  \"receiver\": \"实验室\",\n  \"signed\": true,\n  \"order\": 1\n}",
+      "id": "C5",
+      "main_text": "S4交接\n资料编号\nC5\n修订\n1\n内容摘要\nc7bf10a5d1fcc58e4c6ee6feef0642a5867a329311c10e09bbda698ccbfd3007\n草稿引用\nC5@c7bf10a5d1fcc58e4c6ee6feef0642a5867a329311c10e09bbda698ccbfd3007\n{\n  \"sample\": \"S4\",\n  \"sender\": \"赵甲\",\n  \"receiver\": \"实验室\",\n  \"signed\": true,\n  \"order\": 1\n}\n下载原始材料\n\n下载文书或扫描副本",
+      "reference": "C5@c7bf10a5d1fcc58e4c6ee6feef0642a5867a329311c10e09bbda698ccbfd3007",
+      "revision": 1,
+      "title": "S4交接",
+      "url": "http://127.0.0.1:8765/record/C5"
+    },
+    {
+      "attachment_json": {
+        "path": "attachments/A1.json",
+        "sha256": "0c48f948d341fe376678e01a59a0cf64afe8fef563c950c2ed586407a5d9fc1c",
+        "sha_matches_page": true,
+        "url": "http://127.0.0.1:8765/attachment/A1"
+      },
+      "category": "分样",
+      "digest_shown": "0c48f948d341fe376678e01a59a0cf64afe8fef563c950c2ed586407a5d9fc1c",
+      "document": {
+        "path": "documents/A1.txt",
+        "sha256": "0959367bd7908d332e94456c376080d573fd96e42ebe480126692c2fbad7e867",
+        "size": 174,
+        "suggested_name": "A1.txt",
+        "url": "http://127.0.0.1:8765/document/A1"
+      },
+      "fields": {
+        "child": "S2-A",
+        "method": "消解ICP",
+        "parent": "S2"
+      },
+      "fields_text": "{\n  \"parent\": \"S2\",\n  \"child\": \"S2-A\",\n  \"method\": \"消解ICP\"\n}",
+      "id": "A1",
+      "main_text": "S2初测分样\n资料编号\nA1\n修订\n1\n内容摘要\n0c48f948d341fe376678e01a59a0cf64afe8fef563c950c2ed586407a5d9fc1c\n草稿引用\nA1@0c48f948d341fe376678e01a59a0cf64afe8fef563c950c2ed586407a5d9fc1c\n{\n  \"parent\": \"S2\",\n  \"child\": \"S2-A\",\n  \"method\": \"消解ICP\"\n}\n下载原始材料\n\n下载文书或扫描副本",
+      "reference": "A1@0c48f948d341fe376678e01a59a0cf64afe8fef563c950c2ed586407a5d9fc1c",
+      "revision": 1,
+      "title": "S2初测分样",
+      "url": "http://127.0.0.1:8765/record/A1"
+    },
+    {
+      "attachment_json": {
+        "path": "attachments/A2.json",
+        "sha256": "2898bb7253986855d36b83ebc44659a9dd1b84235f710dfbff62bf7c7046d541",
+        "sha_matches_page": true,
+        "url": "http://127.0.0.1:8765/attachment/A2"
+      },
+      "category": "分样",
+      "digest_shown": "2898bb7253986855d36b83ebc44659a9dd1b84235f710dfbff62bf7c7046d541",
+      "document": {
+        "path": "documents/A2.txt",
+        "sha256": "bec3bab3d17bfc26bff654a10a80a6599f03649cc415c788112227aad4b694b5",
+        "size": 174,
+        "suggested_name": "A2.txt",
+        "url": "http://127.0.0.1:8765/document/A2"
+      },
+      "fields": {
+        "child": "S2-B",
+        "method": "消解ICP",
+        "parent": "S2"
+      },
+      "fields_text": "{\n  \"parent\": \"S2\",\n  \"child\": \"S2-B\",\n  \"method\": \"消解ICP\"\n}",
+      "id": "A2",
+      "main_text": "S2复测分样\n资料编号\nA2\n修订\n1\n内容摘要\n2898bb7253986855d36b83ebc44659a9dd1b84235f710dfbff62bf7c7046d541\n草稿引用\nA2@2898bb7253986855d36b83ebc44659a9dd1b84235f710dfbff62bf7c7046d541\n{\n  \"parent\": \"S2\",\n  \"child\": \"S2-B\",\n  \"method\": \"消解ICP\"\n}\n下载原始材料\n\n下载文书或扫描副本",
+      "reference": "A2@2898bb7253986855d36b83ebc44659a9dd1b84235f710dfbff62bf7c7046d541",
+      "revision": 1,
+      "title": "S2复测分样",
+      "url": "http://127.0.0.1:8765/record/A2"
+    },
+    {
+      "attachment_json": {
+        "path": "attachments/R1.json",
+        "sha256": "fac307a8e5644913cfa22506b13917683a867899f3b64b80bc3921e987a66c4a",
+        "sha_matches_page": true,
+        "url": "http://127.0.0.1:8765/attachment/R1"
+      },
+      "category": "报告",
+      "digest_shown": "fac307a8e5644913cfa22506b13917683a867899f3b64b80bc3921e987a66c4a",
+      "document": {
+        "path": "documents/R1.txt",
+        "sha256": "4f4c505d9d6e800f4abf2443160fa74c10c5d1202a94edc2c20090216949359b",
+        "size": 215,
+        "suggested_name": "R1.txt",
+        "url": "http://127.0.0.1:8765/document/R1"
+      },
+      "fields": {
+        "analyte": "Pb",
+        "basis": "湿基",
+        "dilution_applied": true,
+        "sample": "S1",
+        "unit": "mg/kg",
+        "value": 42
+      },
+      "fields_text": "{\n  \"sample\": \"S1\",\n  \"analyte\": \"Pb\",\n  \"value\": 42,\n  \"basis\": \"湿基\",\n  \"unit\": \"mg/kg\",\n  \"dilution_applied\": true\n}",
+      "id": "R1",
+      "main_text": "北点铅\n资料编号\nR1\n修订\n1\n内容摘要\nfac307a8e5644913cfa22506b13917683a867899f3b64b80bc3921e987a66c4a\n草稿引用\nR1@fac307a8e5644913cfa22506b13917683a867899f3b64b80bc3921e987a66c4a\n{\n  \"sample\": \"S1\",\n  \"analyte\": \"Pb\",\n  \"value\": 42,\n  \"basis\": \"湿基\",\n  \"unit\": \"mg/kg\",\n  \"dilution_applied\": true\n}\n下载原始材料\n\n下载文书或扫描副本",
+      "reference": "R1@fac307a8e5644913cfa22506b13917683a867899f3b64b80bc3921e987a66c4a",
+      "revision": 1,
+      "title": "北点铅",
+      "url": "http://127.0.0.1:8765/record/R1"
+    },
+    {
+      "attachment_json": {
+        "path": "attachments/R2.json",
+        "sha256": "8d48804a7cc8c34b5c38d32daa310c62065c841b95e852734ecb537a0d380be5",
+        "sha_matches_page": true,
+        "url": "http://127.0.0.1:8765/attachment/R2"
+      },
+      "category": "报告",
+      "digest_shown": "8d48804a7cc8c34b5c38d32daa310c62065c841b95e852734ecb537a0d380be5",
+      "document": {
+        "path": "documents/R2.txt",
+        "sha256": "2238ffe3857511fdf8d20f9e6eb1c3c92112aca3b4686dee84307b95ce1b4199",
+        "size": 207,
+        "suggested_name": "R2.txt",
+        "url": "http://127.0.0.1:8765/document/R2"
+      },
+      "fields": {
+        "analyte": "Pb",
+        "basis": "干基",
+        "lod": 60,
+        "sample": "S2-A",
+        "unit": "mg/kg",
+        "value": "ND"
+      },
+      "fields_text": "{\n  \"sample\": \"S2-A\",\n  \"analyte\": \"Pb\",\n  \"value\": \"ND\",\n  \"lod\": 60,\n  \"basis\": \"干基\",\n  \"unit\": \"mg/kg\"\n}",
+      "id": "R2",
+      "main_text": "南点初测\n资料编号\nR2\n修订\n1\n内容摘要\n8d48804a7cc8c34b5c38d32daa310c62065c841b95e852734ecb537a0d380be5\n草稿引用\nR2@8d48804a7cc8c34b5c38d32daa310c62065c841b95e852734ecb537a0d380be5\n{\n  \"sample\": \"S2-A\",\n  \"analyte\": \"Pb\",\n  \"value\": \"ND\",\n  \"lod\": 60,\n  \"basis\": \"干基\",\n  \"unit\": \"mg/kg\"\n}\n下载原始材料\n\n下载文书或扫描副本",
+      "reference": "R2@8d48804a7cc8c34b5c38d32daa310c62065c841b95e852734ecb537a0d380be5",
+      "revision": 1,
+      "title": "南点初测",
+      "url": "http://127.0.0.1:8765/record/R2"
+    },
+    {
+      "attachment_json": {
+        "path": "attachments/R3.json",
+        "sha256": "1e0d2285a27cae8c5d2ee5688b68918f8d2356ff16c3e61a7912c34fcc787313",
+        "sha_matches_page": true,
+        "url": "http://127.0.0.1:8765/attachment/R3"
+      },
+      "category": "报告",
+      "digest_shown": "1e0d2285a27cae8c5d2ee5688b68918f8d2356ff16c3e61a7912c34fcc787313",
+      "document": {
+        "path": "documents/R3.txt",
+        "sha256": "b601f11579f439006412794c3a9c5ebe60cfa2a0cb19b7c243e1bee82e403696",
+        "size": 196,
+        "suggested_name": "R3.txt",
+        "url": "http://127.0.0.1:8765/document/R3"
+      },
+      "fields": {
+        "analyte": "Pb",
+        "basis": "干基",
+        "sample": "S2-B",
+        "unit": "mg/kg",
+        "value": 54
+      },
+      "fields_text": "{\n  \"sample\": \"S2-B\",\n  \"analyte\": \"Pb\",\n  \"value\": 54,\n  \"basis\": \"干基\",\n  \"unit\": \"mg/kg\"\n}",
+      "id": "R3",
+      "main_text": "南点复测\n资料编号\nR3\n修订\n1\n内容摘要\n1e0d2285a27cae8c5d2ee5688b68918f8d2356ff16c3e61a7912c34fcc787313\n草稿引用\nR3@1e0d2285a27cae8c5d2ee5688b68918f8d2356ff16c3e61a7912c34fcc787313\n{\n  \"sample\": \"S2-B\",\n  \"analyte\": \"Pb\",\n  \"value\": 54,\n  \"basis\": \"干基\",\n  \"unit\": \"mg/kg\"\n}\n下载原始材料\n\n下载文书或扫描副本",
+      "reference": "R3@1e0d2285a27cae8c5d2ee5688b68918f8d2356ff16c3e61a7912c34fcc787313",
+      "revision": 1,
+      "title": "南点复测",
+      "url": "http://127.0.0.1:8765/record/R3"
+    },
+    {
+      "attachment_json": {
+        "path": "attachments/R3C.json",
+        "sha256": "4c8d5875033b26a11b3be55fdb6a6d81eb1ffbb4f39c350f3e5c0ba7eb36ba30",
+        "sha_matches_page": true,
+        "url": "http://127.0.0.1:8765/attachment/R3C"
+      },
+      "category": "补正",
+      "digest_shown": "4c8d5875033b26a11b3be55fdb6a6d81eb1ffbb4f39c350f3e5c0ba7eb36ba30",
+      "document": {
+        "path": "documents/R3C.txt",
+        "sha256": "ef5a9c15296a566a0cecfd2f77a5a246780626d3318ee137812a66cce9b1b436",
+        "size": 243,
+        "suggested_name": "R3C.txt",
+        "url": "http://127.0.0.1:8765/document/R3C"
+      },
+      "fields": {
+        "analyte": "Pb",
+        "basis": "干基",
+        "reason": "录入更正",
+        "replaces": "R3",
+        "sample": "S2-B",
+        "unit": "mg/kg",
+        "value": 49
+      },
+      "fields_text": "{\n  \"sample\": \"S2-B\",\n  \"replaces\": \"R3\",\n  \"analyte\": \"Pb\",\n  \"value\": 49,\n  \"basis\": \"干基\",\n  \"unit\": \"mg/kg\",\n  \"reason\": \"录入更正\"\n}",
+      "id": "R3C",
+      "main_text": "南点复测补正\n资料编号\nR3C\n修订\n1\n内容摘要\n4c8d5875033b26a11b3be55fdb6a6d81eb1ffbb4f39c350f3e5c0ba7eb36ba30\n草稿引用\nR3C@4c8d5875033b26a11b3be55fdb6a6d81eb1ffbb4f39c350f3e5c0ba7eb36ba30\n{\n  \"sample\": \"S2-B\",\n  \"replaces\": \"R3\",\n  \"analyte\": \"Pb\",\n  \"value\": 49,\n  \"basis\": \"干基\",\n  \"unit\": \"mg/kg\",\n  \"reason\": \"录入更正\"\n}\n下载原始材料\n\n下载文书或扫描副本",
+      "reference": "R3C@4c8d5875033b26a11b3be55fdb6a6d81eb1ffbb4f39c350f3e5c0ba7eb36ba30",
+      "revision": 1,
+      "title": "南点复测补正",
+      "url": "http://127.0.0.1:8765/record/R3C"
+    },
+    {
+      "attachment_json": {
+        "path": "attachments/R4.json",
+        "sha256": "31b62d2cfa39d07087e11924f4a3c570f1c62b1434c9f335681359d30c355182",
+        "sha_matches_page": true,
+        "url": "http://127.0.0.1:8765/attachment/R4"
+      },
+      "category": "报告",
+      "digest_shown": "31b62d2cfa39d07087e11924f4a3c570f1c62b1434c9f335681359d30c355182",
+      "document": {
+        "path": "documents/R4.txt",
+        "sha256": "0635cbe105f10245da9cccaf86f1500bc9d33b2237794eb38256df8a1c5edd79",
+        "size": 191,
+        "suggested_name": "R4.txt",
+        "url": "http://127.0.0.1:8765/document/R4"
+      },
+      "fields": {
+        "analyte": "Pb",
+        "basis": "湿基",
+        "sample": "S3",
+        "unit": "mg/kg",
+        "value": 40
+      },
+      "fields_text": "{\n  \"sample\": \"S3\",\n  \"analyte\": \"Pb\",\n  \"value\": 40,\n  \"basis\": \"湿基\",\n  \"unit\": \"mg/kg\"\n}",
+      "id": "R4",
+      "main_text": "西点铅\n资料编号\nR4\n修订\n1\n内容摘要\n31b62d2cfa39d07087e11924f4a3c570f1c62b1434c9f335681359d30c355182\n草稿引用\nR4@31b62d2cfa39d07087e11924f4a3c570f1c62b1434c9f335681359d30c355182\n{\n  \"sample\": \"S3\",\n  \"analyte\": \"Pb\",\n  \"value\": 40,\n  \"basis\": \"湿基\",\n  \"unit\": \"mg/kg\"\n}\n下载原始材料\n\n下载文书或扫描副本",
+      "reference": "R4@31b62d2cfa39d07087e11924f4a3c570f1c62b1434c9f335681359d30c355182",
+      "revision": 1,
+      "title": "西点铅",
+      "url": "http://127.0.0.1:8765/record/R4"
+    },
+    {
+      "attachment_json": {
+        "path": "attachments/R5.json",
+        "sha256": "7e532c037fc7d81825cc961393f3cf25970c0ff13aee36b541ab060e39d0cb6c",
+        "sha_matches_page": true,
+        "url": "http://127.0.0.1:8765/attachment/R5"
+      },
+      "category": "报告",
+      "digest_shown": "7e532c037fc7d81825cc961393f3cf25970c0ff13aee36b541ab060e39d0cb6c",
+      "document": {
+        "path": "documents/R5.txt",
+        "sha256": "62b340103cd39fd58f38e4a22dd307a0be0fe18e01baf3452da17ef4bcdf4bcc",
+        "size": 192,
+        "suggested_name": "R5.txt",
+        "url": "http://127.0.0.1:8765/document/R5"
+      },
+      "fields": {
+        "analyte": "Pb",
+        "basis": "干基",
+        "sample": "S4",
+        "unit": "g/kg",
+        "value": 0.04
+      },
+      "fields_text": "{\n  \"sample\": \"S4\",\n  \"analyte\": \"Pb\",\n  \"value\": 0.04,\n  \"basis\": \"干基\",\n  \"unit\": \"g/kg\"\n}",
+      "id": "R5",
+      "main_text": "东点铅\n资料编号\nR5\n修订\n1\n内容摘要\n7e532c037fc7d81825cc961393f3cf25970c0ff13aee36b541ab060e39d0cb6c\n草稿引用\nR5@7e532c037fc7d81825cc961393f3cf25970c0ff13aee36b541ab060e39d0cb6c\n{\n  \"sample\": \"S4\",\n  \"analyte\": \"Pb\",\n  \"value\": 0.04,\n  \"basis\": \"干基\",\n  \"unit\": \"g/kg\"\n}\n下载原始材料\n\n下载文书或扫描副本",
+      "reference": "R5@7e532c037fc7d81825cc961393f3cf25970c0ff13aee36b541ab060e39d0cb6c",
+      "revision": 1,
+      "title": "东点铅",
+      "url": "http://127.0.0.1:8765/record/R5"
+    }
+  ]
+}

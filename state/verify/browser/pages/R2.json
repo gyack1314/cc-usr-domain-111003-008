@@ -1,0 +1,32 @@
+{
+  "attachment_json": {
+    "path": "attachments/R2.json",
+    "sha256": "8d48804a7cc8c34b5c38d32daa310c62065c841b95e852734ecb537a0d380be5",
+    "sha_matches_page": true,
+    "url": "http://127.0.0.1:8765/attachment/R2"
+  },
+  "category": "报告",
+  "digest_shown": "8d48804a7cc8c34b5c38d32daa310c62065c841b95e852734ecb537a0d380be5",
+  "document": {
+    "path": "documents/R2.txt",
+    "sha256": "2238ffe3857511fdf8d20f9e6eb1c3c92112aca3b4686dee84307b95ce1b4199",
+    "size": 207,
+    "suggested_name": "R2.txt",
+    "url": "http://127.0.0.1:8765/document/R2"
+  },
+  "fields": {
+    "analyte": "Pb",
+    "basis": "干基",
+    "lod": 60,
+    "sample": "S2-A",
+    "unit": "mg/kg",
+    "value": "ND"
+  },
+  "fields_text": "{\n  \"sample\": \"S2-A\",\n  \"analyte\": \"Pb\",\n  \"value\": \"ND\",\n  \"lod\": 60,\n  \"basis\": \"干基\",\n  \"unit\": \"mg/kg\"\n}",
+  "id": "R2",
+  "main_text": "南点初测\n资料编号\nR2\n修订\n1\n内容摘要\n8d48804a7cc8c34b5c38d32daa310c62065c841b95e852734ecb537a0d380be5\n草稿引用\nR2@8d48804a7cc8c34b5c38d32daa310c62065c841b95e852734ecb537a0d380be5\n{\n  \"sample\": \"S2-A\",\n  \"analyte\": \"Pb\",\n  \"value\": \"ND\",\n  \"lod\": 60,\n  \"basis\": \"干基\",\n  \"unit\": \"mg/kg\"\n}\n下载原始材料\n\n下载文书或扫描副本",
+  "reference": "R2@8d48804a7cc8c34b5c38d32daa310c62065c841b95e852734ecb537a0d380be5",
+  "revision": 1,
+  "title": "南点初测",
+  "url": "http://127.0.0.1:8765/record/R2"
+}
