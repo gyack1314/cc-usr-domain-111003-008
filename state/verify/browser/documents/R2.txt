@@ -1,0 +1,12 @@
+合成业务文书
+南点初测
+资料编号：R2
+
+sample："S2-A"
+analyte："Pb"
+value："ND"
+lod：60
+basis："干基"
+unit："mg/kg"
+
+本文件为本地业务资料副本，效力依业务规程认定。
